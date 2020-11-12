@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EE011C8255CC60F008C8C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE011C7255CC60F008C8C12 /* AppDelegate.swift */; };
+		0EE011CA255CC60F008C8C12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE011C9255CC60F008C8C12 /* SceneDelegate.swift */; };
+		0EE011CC255CC60F008C8C12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE011CB255CC60F008C8C12 /* ViewController.swift */; };
+		0EE011CF255CC60F008C8C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE011CD255CC60F008C8C12 /* Main.storyboard */; };
+		0EE011D1255CC610008C8C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE011D0255CC610008C8C12 /* Assets.xcassets */; };
+		0EE011D4255CC610008C8C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE011D2255CC610008C8C12 /* LaunchScreen.storyboard */; };
+		0EE011DF255CC610008C8C12 /* TelegrammeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE011DE255CC610008C8C12 /* TelegrammeTests.swift */; };
+		0EE011EA255CC610008C8C12 /* TelegrammeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE011E9255CC610008C8C12 /* TelegrammeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EE011DB255CC610008C8C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EE011BC255CC60F008C8C12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EE011C3255CC60F008C8C12;
+			remoteInfo = Telegramme;
+		};
+		0EE011E6255CC610008C8C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EE011BC255CC60F008C8C12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EE011C3255CC60F008C8C12;
+			remoteInfo = Telegramme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EE011C4255CC60F008C8C12 /* Telegramme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telegramme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE011C7255CC60F008C8C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EE011C9255CC60F008C8C12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0EE011CB255CC60F008C8C12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EE011CE255CC60F008C8C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EE011D0255CC610008C8C12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EE011D3255CC610008C8C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EE011D5255CC610008C8C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EE011DA255CC610008C8C12 /* TelegrammeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelegrammeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE011DE255CC610008C8C12 /* TelegrammeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegrammeTests.swift; sourceTree = "<group>"; };
+		0EE011E0255CC610008C8C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EE011E5255CC610008C8C12 /* TelegrammeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelegrammeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE011E9255CC610008C8C12 /* TelegrammeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegrammeUITests.swift; sourceTree = "<group>"; };
+		0EE011EB255CC610008C8C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EE011C1255CC60F008C8C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE011D7255CC610008C8C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE011E2255CC610008C8C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EE011BB255CC60F008C8C12 = {
+			isa = PBXGroup;
+			children = (
+				0EE011C6255CC60F008C8C12 /* Telegramme */,
+				0EE011DD255CC610008C8C12 /* TelegrammeTests */,
+				0EE011E8255CC610008C8C12 /* TelegrammeUITests */,
+				0EE011C5255CC60F008C8C12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EE011C5255CC60F008C8C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EE011C4255CC60F008C8C12 /* Telegramme.app */,
+				0EE011DA255CC610008C8C12 /* TelegrammeTests.xctest */,
+				0EE011E5255CC610008C8C12 /* TelegrammeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EE011C6255CC60F008C8C12 /* Telegramme */ = {
+			isa = PBXGroup;
+			children = (
+				0EE011C7255CC60F008C8C12 /* AppDelegate.swift */,
+				0EE011C9255CC60F008C8C12 /* SceneDelegate.swift */,
+				0EE011CB255CC60F008C8C12 /* ViewController.swift */,
+				0EE011CD255CC60F008C8C12 /* Main.storyboard */,
+				0EE011D0255CC610008C8C12 /* Assets.xcassets */,
+				0EE011D2255CC610008C8C12 /* LaunchScreen.storyboard */,
+				0EE011D5255CC610008C8C12 /* Info.plist */,
+			);
+			path = Telegramme;
+			sourceTree = "<group>";
+		};
+		0EE011DD255CC610008C8C12 /* TelegrammeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EE011DE255CC610008C8C12 /* TelegrammeTests.swift */,
+				0EE011E0255CC610008C8C12 /* Info.plist */,
+			);
+			path = TelegrammeTests;
+			sourceTree = "<group>";
+		};
+		0EE011E8255CC610008C8C12 /* TelegrammeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EE011E9255CC610008C8C12 /* TelegrammeUITests.swift */,
+				0EE011EB255CC610008C8C12 /* Info.plist */,
+			);
+			path = TelegrammeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EE011C3255CC60F008C8C12 /* Telegramme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EE011EE255CC610008C8C12 /* Build configuration list for PBXNativeTarget "Telegramme" */;
+			buildPhases = (
+				0EE011C0255CC60F008C8C12 /* Sources */,
+				0EE011C1255CC60F008C8C12 /* Frameworks */,
+				0EE011C2255CC60F008C8C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Telegramme;
+			productName = Telegramme;
+			productReference = 0EE011C4255CC60F008C8C12 /* Telegramme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EE011D9255CC610008C8C12 /* TelegrammeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EE011F1255CC610008C8C12 /* Build configuration list for PBXNativeTarget "TelegrammeTests" */;
+			buildPhases = (
+				0EE011D6255CC610008C8C12 /* Sources */,
+				0EE011D7255CC610008C8C12 /* Frameworks */,
+				0EE011D8255CC610008C8C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EE011DC255CC610008C8C12 /* PBXTargetDependency */,
+			);
+			name = TelegrammeTests;
+			productName = TelegrammeTests;
+			productReference = 0EE011DA255CC610008C8C12 /* TelegrammeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0EE011E4255CC610008C8C12 /* TelegrammeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EE011F4255CC610008C8C12 /* Build configuration list for PBXNativeTarget "TelegrammeUITests" */;
+			buildPhases = (
+				0EE011E1255CC610008C8C12 /* Sources */,
+				0EE011E2255CC610008C8C12 /* Frameworks */,
+				0EE011E3255CC610008C8C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EE011E7255CC610008C8C12 /* PBXTargetDependency */,
+			);
+			name = TelegrammeUITests;
+			productName = TelegrammeUITests;
+			productReference = 0EE011E5255CC610008C8C12 /* TelegrammeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EE011BC255CC60F008C8C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					0EE011C3255CC60F008C8C12 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					0EE011D9255CC610008C8C12 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 0EE011C3255CC60F008C8C12;
+					};
+					0EE011E4255CC610008C8C12 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 0EE011C3255CC60F008C8C12;
+					};
+				};
+			};
+			buildConfigurationList = 0EE011BF255CC60F008C8C12 /* Build configuration list for PBXProject "Telegramme" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EE011BB255CC60F008C8C12;
+			productRefGroup = 0EE011C5255CC60F008C8C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EE011C3255CC60F008C8C12 /* Telegramme */,
+				0EE011D9255CC610008C8C12 /* TelegrammeTests */,
+				0EE011E4255CC610008C8C12 /* TelegrammeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EE011C2255CC60F008C8C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE011D4255CC610008C8C12 /* LaunchScreen.storyboard in Resources */,
+				0EE011D1255CC610008C8C12 /* Assets.xcassets in Resources */,
+				0EE011CF255CC60F008C8C12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE011D8255CC610008C8C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE011E3255CC610008C8C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EE011C0255CC60F008C8C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE011CC255CC60F008C8C12 /* ViewController.swift in Sources */,
+				0EE011C8255CC60F008C8C12 /* AppDelegate.swift in Sources */,
+				0EE011CA255CC60F008C8C12 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE011D6255CC610008C8C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE011DF255CC610008C8C12 /* TelegrammeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE011E1255CC610008C8C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE011EA255CC610008C8C12 /* TelegrammeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EE011DC255CC610008C8C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EE011C3255CC60F008C8C12 /* Telegramme */;
+			targetProxy = 0EE011DB255CC610008C8C12 /* PBXContainerItemProxy */;
+		};
+		0EE011E7255CC610008C8C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EE011C3255CC60F008C8C12 /* Telegramme */;
+			targetProxy = 0EE011E6255CC610008C8C12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EE011CD255CC60F008C8C12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EE011CE255CC60F008C8C12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EE011D2255CC610008C8C12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EE011D3255CC610008C8C12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EE011EC255CC610008C8C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EE011ED255CC610008C8C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EE011EF255CC610008C8C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Telegramme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sg.mad2.Telegramme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EE011F0255CC610008C8C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Telegramme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sg.mad2.Telegramme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0EE011F2255CC610008C8C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelegrammeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sg.mad2.TelegrammeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telegramme.app/Telegramme";
+			};
+			name = Debug;
+		};
+		0EE011F3255CC610008C8C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelegrammeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sg.mad2.TelegrammeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telegramme.app/Telegramme";
+			};
+			name = Release;
+		};
+		0EE011F5255CC610008C8C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelegrammeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sg.mad2.TelegrammeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Telegramme;
+			};
+			name = Debug;
+		};
+		0EE011F6255CC610008C8C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelegrammeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sg.mad2.TelegrammeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Telegramme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EE011BF255CC60F008C8C12 /* Build configuration list for PBXProject "Telegramme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE011EC255CC610008C8C12 /* Debug */,
+				0EE011ED255CC610008C8C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EE011EE255CC610008C8C12 /* Build configuration list for PBXNativeTarget "Telegramme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE011EF255CC610008C8C12 /* Debug */,
+				0EE011F0255CC610008C8C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EE011F1255CC610008C8C12 /* Build configuration list for PBXNativeTarget "TelegrammeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE011F2255CC610008C8C12 /* Debug */,
+				0EE011F3255CC610008C8C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EE011F4255CC610008C8C12 /* Build configuration list for PBXNativeTarget "TelegrammeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE011F5255CC610008C8C12 /* Debug */,
+				0EE011F6255CC610008C8C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EE011BC255CC60F008C8C12 /* Project object */;
+}

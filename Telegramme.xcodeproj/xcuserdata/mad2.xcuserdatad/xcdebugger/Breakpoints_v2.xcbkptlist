@@ -3,4 +3,114 @@
    uuid = "DA3F1421-9DD3-4FF8-B789-AA93ACAE857F"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5C89F4D-B328-4591-997B-12206028300F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Telegramme/AddContentViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "AddContentViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F5C89F4D-B328-4591-997B-12206028300F - 89fedfb57fe070fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Telegramme.AddContentViewController.contact.getter : Swift.Optional&lt;Telegramme.Contact&gt;"
+                  moduleName = "Telegramme"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mad2/Desktop/Telegramme/Telegramme/AddContentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "F5C89F4D-B328-4591-997B-12206028300F - 284967132e4648f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Telegramme.AddContentViewController.contact.setter : Swift.Optional&lt;Telegramme.Contact&gt;"
+                  moduleName = "Telegramme"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mad2/Desktop/Telegramme/Telegramme/AddContentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "F5C89F4D-B328-4591-997B-12206028300F - 85657db7c78ce055"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Telegramme.AddContentViewController.contact.modify : Swift.Optional&lt;Telegramme.Contact&gt;"
+                  moduleName = "Telegramme"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mad2/Desktop/Telegramme/Telegramme/AddContentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "F5C89F4D-B328-4591-997B-12206028300F - 9647b35e8d449fda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Telegramme.AddContentViewController.contact.modify : Swift.Optional&lt;Telegramme.Contact&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Telegramme"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mad2/Desktop/Telegramme/Telegramme/AddContentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "F5C89F4D-B328-4591-997B-12206028300F - caadfdc857d6c5ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Telegramme.AddContentViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Telegramme.AddContentViewController"
+                  moduleName = "Telegramme"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mad2/Desktop/Telegramme/Telegramme/AddContentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "625">
+               </Location>
+               <Location
+                  uuid = "F5C89F4D-B328-4591-997B-12206028300F - 26e3328fba772678"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Telegramme.AddContentViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Telegramme.AddContentViewController&gt;"
+                  moduleName = "Telegramme"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mad2/Desktop/Telegramme/Telegramme/AddContentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "566">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

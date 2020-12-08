@@ -9,13 +9,20 @@ import UIKit
 
 class ShowContactViewController : UITableViewController{
     
-    var appDelegate = UIApplication.shared.delegate as!AppDelegate
+    let appDelegate = UIApplication.shared.delegate as! AppDelegate
+    var contactList:[Contact] = []
+    let contactController:ContactController = ContactController();
     
     override func viewDidLoad(){
         super.viewDidLoad()
         
         self.tableView.reloadData()
         self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        if let contacts = ContactController().retrieveAllContact(){
+            contactList = contacts
+        }
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -27,14 +34,14 @@ class ShowContactViewController : UITableViewController{
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        return appDelegate.contactList.count
+        return contactList.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "ContactCell", for: indexPath)
         
-        let contact = appDelegate.contactList[indexPath.row]
+        let contact = contactList[indexPath.row]
         cell.textLabel!.text = "\(contact.firstName)\(contact.lastName)"
         cell.detailTextLabel!.text = "\(contact.mobileNo)"
         return cell
@@ -48,7 +55,7 @@ class ShowContactViewController : UITableViewController{
         if indexPath.section == 0 {
             appDelegate.contactList.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath as IndexPath],
-            with: UITableView.RowAnimation.fade)	
+            with: UITableView.RowAnimation.fade)		
         }
     else {
         

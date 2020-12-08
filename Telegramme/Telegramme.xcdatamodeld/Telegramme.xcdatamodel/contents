@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19G73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDCContact" representedClassName="CDCContact" syncable="YES" codeGenerationType="class">
+        <attribute name="firstname" optional="YES" attributeType="String"/>
+        <attribute name="lastname" optional="YES" attributeType="String"/>
+        <attribute name="mobileno" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CDFriend" representedClassName="CDFriend" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="profileImageName" optional="YES" attributeType="String"/>
+        <relationship name="lastMessage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDMessage"/>
+        <relationship name="messages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDMessage" inverseName="friend" inverseEntity="CDMessage"/>
+    </entity>
+    <entity name="CDMessage" representedClassName="CDMessage" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="isSender" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+        <relationship name="friend" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDFriend" inverseName="messages" inverseEntity="CDFriend"/>
+    </entity>
+    <elements>
+        <element name="CDCContact" positionX="-245.29296875" positionY="-83.5234375" width="128" height="88"/>
+        <element name="CDFriend" positionX="-89.6796875" positionY="-77.8984375" width="128" height="103"/>
+        <element name="CDMessage" positionX="197.90625" positionY="10.12890625" width="128" height="103"/>
+    </elements>
+</model>

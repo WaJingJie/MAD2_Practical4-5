@@ -35,4 +35,54 @@ class FriendController{
         }
     }
     
+    func AddMessageToFriend(friend:Friend, message:Message){
+        //new entity for message
+        let mEntity = NSEntityDescription.entity(forEntityName: "CDMessage", in: context)!
+        
+        //friend record
+        let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "CDFriend")
+        fetchRequest.predicate = NSPredicate(format: "name = %@", friend.name)
+        
+        do{
+            let friendlist = try context.fetch(fetchRequest)
+            let friend = friendlist[0]
+            
+            let mObject = NSManagedObject(entity: mEntity, insertInto: context)
+            mObject.setValue(message.sender, forKey: "isSender")
+            mObject.setValue(message.text, forKey: "text")
+            mObject.setValue(message.date, forKey: "date")
+            mObject.setValue(friend, forKey: "friend")
+            
+            try context.save()
+        }catch{
+            print(error)
+        }
+    }
+    
+    func retriveMessagesByFriend(friend:Friend) -> [Message]{
+        //friend record
+        let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "CDFriend")
+        fetchRequest.predicate = NSPredicate(format: "name = %@", friend.name)
+        
+        var messages:[Message] = []
+        
+        do{
+            let result = try context.fetch(fetchRequest)
+            let friend = result[0] as! NSManagedObject
+            
+            let msglist = friend.value(forKey: "message")
+            
+            for f in msglist as! [NSManagedObject]{
+                let messaage:Messe = Message(t: f.value(forKey: "text") as! String, s: f.value(forKey: "isSender") as! Bool, d: f.value(forKey: "date") as! Date)
+                
+                messages.append(messaage)
+            }
+            
+            return messages
+        }catch{
+            print("Fail")
+            return []
+        }
+    }
+    
 }

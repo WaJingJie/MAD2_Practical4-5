@@ -38,29 +38,6 @@ class ContactController{
     
     //retrieve all contacts from core data
     func retrieveAllContact() -> [Contact]? {
-        /*var contact:[NSManagedObject] = []
-        var newContact:[Contact] = []
-        
-        let appDelegate = (UIApplication.shared.delegate) as! AppDelegate
-        let context = appDelegate.persistentContainer.viewContext
-        
-        let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "CDContact")
-        do{
-            contact = try context.fetch(fetchRequest)
-            
-            for c in contact {
-                let firstname = c.value(forKeyPath: "firstname") as? String
-                let lastname = c.value(forKeyPath: "lastname") as? String
-                let mobileno = c.value(forKeyPath: "mobileno") as? String
-                print("\(firstname!)\(lastname)!,\(mobileno!)")
-                
-                let allContact:Contact = Contact(firstname: firstname!, lastname: lastname!, mobileno: mobileno!)
-                newContact.append(allContact)
-            }
-            }catch let error as NSError{
-                print("Could not fetch. \(error), \(error.userInfo)")
-            }
-            return newContact*/
         
         let fetchReqeust = NSFetchRequest<NSFetchRequestResult>(entityName: "CDCContact")
         

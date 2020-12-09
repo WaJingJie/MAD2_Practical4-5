@@ -73,7 +73,7 @@ class FriendController{
             let msglist = friend.value(forKey: "message")
             
             for f in msglist as! [NSManagedObject]{
-                let messaage:Messe = Message(t: f.value(forKey: "text") as! String, s: f.value(forKey: "isSender") as! Bool, d: f.value(forKey: "date") as! Date)
+                let messaage:Message = Message(t: f.value(forKey: "text") as! String, s: f.value(forKey: "isSender") as! Bool, d: f.value(forKey: "date") as! Date)
                 
                 messages.append(messaage)
             }

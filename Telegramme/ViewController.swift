@@ -5,7 +5,9 @@
 //  Created by MAD2 on 12/11/20.
 //
 
+import Foundation
 import UIKit
+import CoreLocation
 
 class ViewController: UIViewController {
 
@@ -15,6 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
     
 

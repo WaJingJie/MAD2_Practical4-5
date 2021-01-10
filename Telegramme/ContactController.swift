@@ -87,18 +87,29 @@ class ContactController{
     //delete contact
     //fetch data based on mobileno
     func deleteContact(mobileno:String){
+        
+        
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "CDCContact")
         fetchRequest.predicate = NSPredicate(format: "mobileno = %@", mobileno)
         
-        do{
+        do {
             let result = try context.fetch(fetchRequest)
             
-            let obejectDelete = result[0] as! NSManagedObject
-            context.delete(obejectDelete)
+            let objecToDelete = result[0] as! NSManagedObject
+            context.delete(objecToDelete)
             
-        } catch{
+            do {
+                try context.save()
+            } catch  {
+                print(error)
+            }
+            
+        } catch  {
             print(error)
         }
+        
+        
+        
     }
 
 }

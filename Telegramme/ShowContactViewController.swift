@@ -49,22 +49,18 @@ class ShowContactViewController : UITableViewController{
     
 
     
-    override func tableView(_ tableView: UITableView, commit editingStyle:
-    UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-    if editingStyle == UITableViewCell.EditingStyle.delete {
-        if indexPath.section == 0 {
-            appDelegate.contactList.remove(at: indexPath.row)
-            tableView.deleteRows(at: [indexPath as IndexPath],
-            with: UITableView.RowAnimation.fade)		
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == UITableViewCell.EditingStyle.delete {
+            if indexPath.section == 0 {
+//                self.appDelegate.contactList.remove(at: indexPath.row)
+            }else{
+//                self.appDelegate.contactList.remove(at: indexPath.row)
+                tableView.deleteRows(at: [indexPath as IndexPath], with: UITableView.RowAnimation.fade)
+            }
+            
+            contactController.deleteContact(mobileno: contactList[indexPath.row].mobileNo)
+            
+            self.tableView.reloadData()
         }
-    else {
-        
-    tableView.deleteRows(at: [indexPath as IndexPath],
-    with: UITableView.RowAnimation.fade)
-    }
-    } else if editingStyle == UITableViewCell.EditingStyle.insert {
-    // Create a new instance of the appropriate class, insert it into the array,
-    // and add a new row to the table view.
-    }
     }
 }

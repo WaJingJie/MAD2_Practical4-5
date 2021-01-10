@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E47044725A69AF100F87970 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E47044625A69AF100F87970 /* MapViewController.swift */; };
+		0E47046425A69D6A00F87970 /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E47046325A69D6A00F87970 /* LocationDelegate.swift */; };
 		0E4EA265255EC0AF00EA70EC /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EA264255EC0AF00EA70EC /* Contact.swift */; };
 		0E4EA26A255ECA2100EA70EC /* ShowContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EA269255ECA2100EA70EC /* ShowContactViewController.swift */; };
 		0E55DA13256F3CDE00B9F893 /* Telegramme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E55DA11256F3CDE00B9F893 /* Telegramme.xcdatamodeld */; };
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E47044625A69AF100F87970 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0E47046325A69D6A00F87970 /* LocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
 		0E4EA264255EC0AF00EA70EC /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		0E4EA269255ECA2100EA70EC /* ShowContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowContactViewController.swift; sourceTree = "<group>"; };
 		0E55DA12256F3CDE00B9F893 /* Telegramme.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Telegramme.xcdatamodel; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				0E55DA1C256F4D9000B9F893 /* Friend.swift */,
 				0E55DA21256F4EA900B9F893 /* Message.swift */,
 				0E5ABA2C257FDFEE0036BBA6 /* FriendController.swift */,
+				0E47044625A69AF100F87970 /* MapViewController.swift */,
+				0E47046325A69D6A00F87970 /* LocationDelegate.swift */,
 			);
 			path = Telegramme;
 			sourceTree = "<group>";
@@ -286,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E47046425A69D6A00F87970 /* LocationDelegate.swift in Sources */,
 				0EE01208255CD210008C8C12 /* AddContentViewController.swift in Sources */,
 				0EE011CC255CC60F008C8C12 /* ViewController.swift in Sources */,
 				0E55DA18256F421800B9F893 /* ContactController.swift in Sources */,
@@ -293,6 +300,7 @@
 				0EE011C8255CC60F008C8C12 /* AppDelegate.swift in Sources */,
 				0E4EA26A255ECA2100EA70EC /* ShowContactViewController.swift in Sources */,
 				0E55DA1D256F4D9000B9F893 /* Friend.swift in Sources */,
+				0E47044725A69AF100F87970 /* MapViewController.swift in Sources */,
 				0E55DA22256F4EA900B9F893 /* Message.swift in Sources */,
 				0E5ABA2D257FDFEE0036BBA6 /* FriendController.swift in Sources */,
 				0E55DA13256F3CDE00B9F893 /* Telegramme.xcdatamodeld in Sources */,
